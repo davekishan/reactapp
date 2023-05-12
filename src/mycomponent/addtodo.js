@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 
 export const Addtodo = (props) => {
 
-const [title,setTitle]=useState("")
-const [desc,setDesc]=useState("")
+const [title,setTitle]=useState("");
+const [desc,setDesc]=useState("");
 
 const submit=(e)=>{
     e.preventDefault();
