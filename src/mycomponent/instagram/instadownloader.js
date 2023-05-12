@@ -61,10 +61,8 @@ export const Instadownloader = () => {
                 </div>
                 <button type="submit" className="btn btn-sm btn-dark my-4">Search</button>
             </form>
-            <video src={datas?.video} controls autoPlay download>
-                <source src={datas?.video} />
-            </video>
-            <a href={datas?.video}  target='_blank' download>download</a>
+            
+            <a className="alink" href={datas?.video}  target='_blank' download><p>download</p> </a>
 
 
         </div>
